@@ -36,7 +36,8 @@ function displayPics(){
   }
   console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // PUT YOUR RESPONSE IN THIS COMMENT -  If let is used rather than var, it will throw an error because 'rando'
+  // is not visible outside of the while loop.  Using let makes 'rando' limited in scope to the while loop.
   console.log(viewed)
 
   // To the DOM and beyond!
